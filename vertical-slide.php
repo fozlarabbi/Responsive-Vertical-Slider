@@ -50,7 +50,7 @@ class VerticalSlide
 
 //Register Post Type
 	function vertical_slide_post_type(){
-		$supports	=  array('title', 'author');
+		$supports	=  array('title', 'author','thumbnail','editor');
 		$labels		=  array(
 			'name'			=> _x( 'Vertical Slides', 'verticalSlide', 'vertical-slide' ),
 			'singular_name'	=> _x( 'Vertical Slide', 'verticalSlide', 'vertical-slide' ),
